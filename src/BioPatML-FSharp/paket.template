@@ -1,0 +1,25 @@
+type project
+title
+    BioPatML-FSharp
+owners
+    Liam Cripwell
+authors 
+    Liam Cripwell
+projectUrl
+    https://github.com/jessicagrace17/BioPatML-FSharp/jessicagrace17/BioPatML-FSharp
+iconUrl
+    https://raw.githubusercontent.com/jessicagrace17/BioPatML-FSharp/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/jessicagrace17/BioPatML-FSharp/jessicagrace17/BioPatML-FSharp/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    BioPatML, bioinformatics, FSharp
+summary
+    An implementation of BioPatML in FSharp
+description
+    An implementation of BioPatML in FSharp
+
+
