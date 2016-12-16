@@ -11,10 +11,15 @@ BioPatML is a pattern matching language that allows users to define complex patt
 BioPatML supports several different pattern variants. These can be broadly categorised under each of the following:
 
 * Region Patterns
+    
     Describe a region within a DNA sequence without being specific about its contents.
+    
 * Motif Patterns
+
     Describe the specific contents of a pattern (such as a certain set of nucleotides, e.g. “ATTG”).
+    
 * Structured Patterns
+
     Describe patterns which are aggregations of several lower-level patterns (such as Motif patterns).
     
 A full outline of the range of supported pattern types can be found in the Wiki, accompanied by examples.
@@ -48,18 +53,18 @@ Some future work that can be done to improve upon the current version of the Bio
 
     **Prosite**
     
-    --Revised matching model
+    ---- Revised matching model
     
-    --Support for repeat ranges
+    ---- Support for repeat ranges
       
     **Series and Repeat**
     
-    --Support for MatchablePat types other than Motif
+    ---- Support for MatchablePat types other than Motif
     
     **Set**
     
-    --Implementing additional match process that performs matches for every component and spec- ifies that with the highest score
+    ---- Implementing additional match process that performs matches for every component and spec- ifies that with the highest score
     
-    --Potential support for other Set patterns
+    ---- Potential support for other Set patterns
       
 * More rigorous and automated testing to ensure that no bugs have slipped under the radar.
