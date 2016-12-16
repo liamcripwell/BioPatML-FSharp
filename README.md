@@ -4,7 +4,13 @@ This project is the work of a computer science student at Queensland University 
 
 The goal here was fleshed out to involve implementing a workflow for identifying certain traits within a genome which would eventually be facilitated by the type provider. It was also decided that it would be worthwhile to take advantage of the powerful pattern matching capabilities of the F# language to facilitate pattern identification in the context of gene sequences. Particular attention was brought to a project developed by Stefan Maetschke by the name of “BioPatML” and how functionality similar to that of BioPatML would be of significant benefit to the project. As such, the primary aim of my part the project became to implement a version of the existing BioPatML project in the F# language
 
-## BioPatML
+## Contents
+
+* [BioPatML](#biopatml)
+* [Known Issues and Future Directions](#issues)
+* [Wiki and Tutorials](https://github.com/liamcripwell/BioPatML-FSharp/wiki)
+
+## <a href="biopatml">BioPatML</a>
 BioPatML is a pattern matching language that allows users to define complex patterns that exist within gene sequences. It aims to provide enhanced pattern description capabilities that cannot be achieved accurately with regular expressions or position weight matrices. The language is XML based, whereby the user can describe patterns as individual XML components as well as more structured patterns which contain a collection of these smaller patterns in some structured context.
 
 ### Patterns
@@ -24,7 +30,7 @@ BioPatML supports several different pattern variants. These can be broadly categ
     
 A full outline of the range of supported pattern types can be found in the Wiki, accompanied by examples.
 
-# Known Issues and Future Directions
+# <a href="issues">Known Issues and Future Directions</a>
 The BioPatML F# library contains versions of most, but not all patterns existing within the original version of BioPatML. The specifics of this support can be seen below:
 
 | Pattern | Notes | Supported | 
