@@ -46,16 +46,13 @@ Some future work that can be done to improve upon the current version of the Bio
 * Re-evaluating the type architecture and the multitude of issues arising from circular dependency-related issues.
 * Implementing further features for supported types that currently have limitations.
     Prosite
-    
-      Revised matching model
-      Support for repeat ranges
+    --Revised matching model
+    --Support for repeat ranges
       
-  Series and Repeat
-  
-      Support for MatchablePat types other than Motif
-  Set
-  
-      Implementing additional match process that performs matches for every component and spec- ifies that with the highest score
-      Potential support for other Set patterns
+    Series and Repeat
+    --Support for MatchablePat types other than Motif
+    Set
+    --Implementing additional match process that performs matches for every component and spec- ifies that with the highest score
+    --Potential support for other Set patterns
       
-  More rigorous and automated testing to ensure that no bugs have slipped under the radar.
+* More rigorous and automated testing to ensure that no bugs have slipped under the radar.
