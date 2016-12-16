@@ -10,7 +10,9 @@ The goal here was fleshed out to involve implementing a workflow for identifying
 * [Known Issues and Future Directions](#issues)
 * [Wiki and Tutorials](https://github.com/liamcripwell/BioPatML-FSharp/wiki)
 
-## <a href="biopatml">BioPatML</a>
+<a href="biopatml">BioPatML</a>
+------
+
 BioPatML is a pattern matching language that allows users to define complex patterns that exist within gene sequences. It aims to provide enhanced pattern description capabilities that cannot be achieved accurately with regular expressions or position weight matrices. The language is XML based, whereby the user can describe patterns as individual XML components as well as more structured patterns which contain a collection of these smaller patterns in some structured context.
 
 ### Patterns
@@ -30,7 +32,9 @@ BioPatML supports several different pattern variants. These can be broadly categ
     
 A full outline of the range of supported pattern types can be found in the Wiki, accompanied by examples.
 
-# <a href="issues">Known Issues and Future Directions</a>
+<a href="issues">Known Issues and Future Directions</a>
+------
+
 The BioPatML F# library contains versions of most, but not all patterns existing within the original version of BioPatML. The specifics of this support can be seen below:
 
 | Pattern | Notes | Supported | 
