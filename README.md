@@ -45,17 +45,18 @@ Some future work that can be done to improve upon the current version of the Bio
     Profile
 * Re-evaluating the type architecture and the multitude of issues arising from circular dependency-related issues.
 * Implementing further features for supported types that currently have limitations.
-    Prosite
+
+    *Prosite*
     
     --Revised matching model
     
     --Support for repeat ranges
       
-    Series and Repeat
+    *Series and Repeat*
     
     --Support for MatchablePat types other than Motif
     
-    Set
+    *Set*
     
     --Implementing additional match process that performs matches for every component and spec- ifies that with the highest score
     
